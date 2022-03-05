@@ -1,0 +1,26 @@
+.contact h2 {
+  text-align: center;
+}
+.contact {
+  margin-top: 30vh;
+}
+
+.raunak {
+  width: 400px;
+  display: block;
+  margin: auto;
+  /* text-align: center; */
+}
+.textarea {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  background-color: green;
+  color: white;
+  margin-top: 20px;
+}
