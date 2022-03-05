@@ -1,3 +1,53 @@
-.div {
-  background-color: red;
+.i {
+  display: flex;
+  height: 86vh;
+}
+.i-left {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.i-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.i-left-wrapper {
+  padding: 50px;
+  /* height: 50%; */
+  /* width: 70%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.i-title {
+  height: 50px;
+  overflow: hidden;
+  color: green;
+}
+
+.i-title-item {
+  height: 50px;
+  /* margin: 0px 10px; */
+  animation: move 10s ease-in-out infinite alternate;
+
+  font-size: 20px;
+}
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
 }
