@@ -51,3 +51,20 @@
     transform: translateY(-200px);
   }
 }
+
+
+/* footer  */
+#footer {
+
+    text-align: center;
+    background-color: #fff;
+    padding: 5%;
+}
+.footer-image {
+    /* padding: 1% 1%; */
+    margin-bottom: 1%;
+}
+.foot-img {
+    padding: 0 1%;
+}
+
