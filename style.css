@@ -1,3 +1,5 @@
+
+
 .i {
   display: flex;
   height: 86vh;
@@ -51,13 +53,22 @@
     transform: translateY(-200px);
   }
 }
+.footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
 
+.contact h2 {
+  text-align: center;
+  font-size: 30px;
+}
 
 .container-fluid {
-    padding: 3% 15% 7%;
+  padding: 3% 15% 7%;
 }
 body {
-    font-family: "Montserrat-Black";
+  font-family: "Montserrat-Black";
 }
 
 /*  new nav title css */
@@ -70,7 +81,6 @@ h1 {
   font-family: "Montserrat-Black";
   font-size: 3rem;
   line-height: 1.5;
-
 }
 
 h2 {
@@ -86,9 +96,7 @@ h3 {
 
 p {
   color: #8f8f8f;
-
 }
-
 
 .container-fluid {
   padding: 3% 15% 7%;
@@ -97,14 +105,11 @@ body {
   font-family: "Montserrat-Black";
 }
 
-
 /* Navigation Bar  */
 
 .navbar {
   padding: 0 0 4.5rem;
 }
-
-
 
 .navbar-brand {
   font-family: "Ubuntu";
@@ -121,41 +126,19 @@ body {
   font-family: "Montserrat-light";
 }
 
-
-
-
-
+/* Title Image  */
 
 /* footer  */
 #footer {
-
-    text-align: center;
-    background-color: #fff;
-    padding: 5%;
+  text-align: center;
+  background-color: #fff;
+  padding: 5%;
 }
 .footer-image {
-    /* padding: 1% 1%; */
-    margin-bottom: 1%;
+  /* padding: 1% 1%; */
+  margin-bottom: 1%;
 }
 .foot-img {
-    padding: 0 1%;
+  padding: 0 1%;
 }
-
-
-.contact h2 {
-  /* font-size: 30px; */
-  color: red;
-}
-.contact p {
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.raunak {
-  width: 400px;
-  display: block;
-  margin: auto;
-  /* text-align: center; */
-}
-
 
